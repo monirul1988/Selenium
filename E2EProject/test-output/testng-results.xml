@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="72639" started-at="2018-11-17T18:04:22Z" finished-at="2018-11-17T18:05:35Z">
+  <suite name="Suite" duration-ms="97338" started-at="2018-11-17T18:17:58Z" finished-at="2018-11-17T18:19:35Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="72639" started-at="2018-11-17T18:04:22Z" finished-at="2018-11-17T18:05:35Z">
+    <test name="Test1" duration-ms="97338" started-at="2018-11-17T18:17:58Z" finished-at="2018-11-17T18:19:35Z">
       <class name="Academy.loginvalidationTest">
-        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@17cd7a0]" name="pagenavigation1" duration-ms="27632" started-at="2018-11-17T18:04:22Z" data-provider="getdata" finished-at="2018-11-17T18:04:50Z">
+        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@17cd7a0]" name="pagenavigation1" duration-ms="36926" started-at="2018-11-17T18:17:58Z" data-provider="getdata" finished-at="2018-11-17T18:18:35Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pagenavigation1 -->
-        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@17cd7a0]" name="pagenavigation1" duration-ms="27726" started-at="2018-11-17T18:04:50Z" data-provider="getdata" finished-at="2018-11-17T18:05:17Z">
+        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@17cd7a0]" name="pagenavigation1" duration-ms="44872" started-at="2018-11-17T18:18:35Z" data-provider="getdata" finished-at="2018-11-17T18:19:20Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
         </test-method> <!-- pagenavigation1 -->
       </class> <!-- Academy.loginvalidationTest -->
       <class name="Academy.validationTest">
-        <test-method status="FAIL" signature="validationTest()[pri:1, instance:Academy.validationTest@67ae56]" name="validationTest" duration-ms="17251" started-at="2018-11-17T18:05:17Z" finished-at="2018-11-17T18:05:35Z">
+        <test-method status="FAIL" signature="validationTest()[pri:1, instance:Academy.validationTest@67ae56]" name="validationTest" duration-ms="15495" started-at="2018-11-17T18:19:20Z" finished-at="2018-11-17T18:19:35Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED COURSES1] but found [FEATURED COURSES]]]>
