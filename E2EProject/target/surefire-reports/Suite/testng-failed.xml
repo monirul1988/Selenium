@@ -6,6 +6,11 @@
   </listeners>
   <test name="Test1(failed)">
     <classes>
+      <class name="Academy.loginvalidationTest">
+        <methods>
+          <include name="pagenavigation1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Academy.loginvalidationTest -->
       <class name="Academy.validationTest">
         <methods>
           <include name="validationTest"/>

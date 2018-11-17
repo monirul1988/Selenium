@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
-  <test name="Test1(failed)">
+  <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="Academy.loginvalidationTest">
-        <methods>
-          <include name="pagenavigation1" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- Academy.loginvalidationTest -->
       <class name="Academy.validationTest">
         <methods>
           <include name="validationTest"/>
