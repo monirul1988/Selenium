@@ -7,10 +7,12 @@
         </listeners>    
 	
 	<test name="Test1">
-		<classes>
-			<class name="Academy.validationTest" />
+	<packages>
+	<package name="Mobile"> </package>
+	<package name="Academy"></package>
+	
+	
 		
-			<class name="Academy.loginvalidationTest" />
-		</classes>
+		</packages>
 	</test> 
 </suite> 

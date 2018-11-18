@@ -23,7 +23,7 @@ import pageObject.Loginpage;
 public class validationTest extends base {
 
 	@Test(priority=1)
-	public void validationTest() throws IOException, InterruptedException
+	public void Text_Validation() throws IOException, InterruptedException
 
 	{
 

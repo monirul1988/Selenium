@@ -13,6 +13,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -29,5 +34,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/IBM_ADMIN/Downloads/java-client-5.0.0-BETA6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/IBM_ADMIN/Downloads/java-client-2.6.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

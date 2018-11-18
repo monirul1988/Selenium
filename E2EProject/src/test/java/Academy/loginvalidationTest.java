@@ -29,7 +29,7 @@ public class loginvalidationTest extends base {
 	@Test(dataProvider="getdata",priority=0)
 	
 
-	public void pagenavigation1(String email, String password) throws IOException, InterruptedException
+	public void Login_in_Account(String email, String password) throws IOException, InterruptedException
 
 	{
 

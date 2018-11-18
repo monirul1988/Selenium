@@ -6,9 +6,19 @@
   </listeners>
   <test name="Test1(failed)">
     <classes>
+      <class name="Academy.loginvalidationTest">
+        <methods>
+          <include name="Login_in_Account" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- Academy.loginvalidationTest -->
+      <class name="Mobile.BrowseTest">
+        <methods>
+          <include name="Browse"/>
+        </methods>
+      </class> <!-- Mobile.BrowseTest -->
       <class name="Academy.validationTest">
         <methods>
-          <include name="validationTest"/>
+          <include name="Text_Validation"/>
         </methods>
       </class> <!-- Academy.validationTest -->
     </classes>

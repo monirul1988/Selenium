@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="97338" started-at="2018-11-17T18:17:58Z" finished-at="2018-11-17T18:19:35Z">
+  <suite name="Suite" duration-ms="132818" started-at="2018-11-18T15:46:46Z" finished-at="2018-11-18T15:48:58Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="97338" started-at="2018-11-17T18:17:58Z" finished-at="2018-11-17T18:19:35Z">
+    <test name="Test1" duration-ms="132818" started-at="2018-11-18T15:46:46Z" finished-at="2018-11-18T15:48:58Z">
       <class name="Academy.loginvalidationTest">
-        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@17cd7a0]" name="pagenavigation1" duration-ms="36926" started-at="2018-11-17T18:17:58Z" data-provider="getdata" finished-at="2018-11-17T18:18:35Z">
+        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@dd8682]" name="pagenavigation1" duration-ms="39273" started-at="2018-11-18T15:47:00Z" data-provider="getdata" finished-at="2018-11-18T15:47:39Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pagenavigation1 -->
-        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@17cd7a0]" name="pagenavigation1" duration-ms="44872" started-at="2018-11-17T18:18:35Z" data-provider="getdata" finished-at="2018-11-17T18:19:20Z">
+        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@dd8682]" name="pagenavigation1" duration-ms="47007" started-at="2018-11-18T15:47:39Z" data-provider="getdata" finished-at="2018-11-18T15:48:26Z">
           <params>
             <param index="0">
               <value>
@@ -40,8 +40,14 @@
           </reporter-output>
         </test-method> <!-- pagenavigation1 -->
       </class> <!-- Academy.loginvalidationTest -->
+      <class name="Mobile.AppTest">
+        <test-method status="PASS" signature="Test()[pri:0, instance:Mobile.AppTest@19b62af]" name="Test" duration-ms="14179" started-at="2018-11-18T15:46:46Z" finished-at="2018-11-18T15:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- Mobile.AppTest -->
       <class name="Academy.validationTest">
-        <test-method status="FAIL" signature="validationTest()[pri:1, instance:Academy.validationTest@67ae56]" name="validationTest" duration-ms="15495" started-at="2018-11-17T18:19:20Z" finished-at="2018-11-17T18:19:35Z">
+        <test-method status="FAIL" signature="validationTest()[pri:1, instance:Academy.validationTest@16da883]" name="validationTest" duration-ms="32305" started-at="2018-11-18T15:48:26Z" finished-at="2018-11-18T15:48:58Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED COURSES1] but found [FEATURED COURSES]]]>
@@ -87,6 +93,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- validationTest -->
       </class> <!-- Academy.validationTest -->
+      <class name="Mobile.BrowseTest">
+        <test-method status="PASS" signature="Browse()[pri:0, instance:Mobile.BrowseTest@cf48b7]" name="Browse" is-config="true" duration-ms="7033" started-at="2018-11-18T15:46:38Z" finished-at="2018-11-18T15:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browse -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:Mobile.BrowseTest@cf48b7]" name="Test2" duration-ms="2" started-at="2018-11-18T15:47:00Z" finished-at="2018-11-18T15:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- Mobile.BrowseTest -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
