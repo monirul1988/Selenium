@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
@@ -10,11 +10,6 @@
 		<attributes>
 			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -36,5 +31,8 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/IBM_ADMIN/Downloads/java-client-5.0.0-BETA6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/IBM_ADMIN/Downloads/java-client-2.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/IBM_ADMIN/Downloads/extentreports-java-v2.031/extentreports-java-v2.031/extentreports-java-2.031.jar"/>
+	<classpathentry kind="lib" path="C:/Users/IBM_ADMIN/Downloads/apache-log4j-2.11.1-bin/apache-log4j-2.11.1-bin/log4j-api-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/IBM_ADMIN/Downloads/apache-log4j-2.11.1-bin/apache-log4j-2.11.1-bin/log4j-core-2.11.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

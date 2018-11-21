@@ -15,7 +15,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
+  
   <build>
+  <resources>
+      <resource>
+        <directory>src/main/java/resources</directory>
+      </resource>
+      </resources>
       <plugins>
        
           <plugin>
@@ -108,8 +114,8 @@
   <dependency>
    	<groupId>org.testng</groupId>
    	<artifactId>testng</artifactId>
-   	<version>6.8</version>
-   	<scope>test</scope>
+   	<version>6.11</version>
+   	 <scope>compile</scope>
    </dependency>
    
     <dependency>
@@ -142,7 +148,7 @@
    <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
-    <version>3.1.5</version>
+    <version>3.0.0</version>
 </dependency>
 <dependency>
     <groupId>com.relevantcodes</groupId>

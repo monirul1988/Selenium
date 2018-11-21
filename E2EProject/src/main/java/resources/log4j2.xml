@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+<Properties>
+<Property name="basePath">./logs</Property>
+</Properties>
+
+<Appenders>
+<!--  <RollingFile name="File" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log" fileName="${basePath}/prints.log">  -->
+
+<RollingFile name="File" filePattern="C:\Users\IBM_ADMIN\git\Selenium\E2EProject\logs/prints-%d{yyyy-MM-dd}.log" fileName="C:\Users\IBM_ADMIN\git\Selenium\E2EProject\logs/prints.log">
+
+<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+<SizeBasedTriggeringPolicy size="1024000000"/>
+</RollingFile>
+
+<Console name="Console" target="SYSTEM_OUT">
+<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+</Console>
+</Appenders>
+<Loggers>
+
+  <!--    <Logger name="logger" level="error" additivity="false">
+      <AppenderRef ref="File"/>
+    </Logger>  -->
+    
+    
+<Root level="trace">
+<AppenderRef ref="File"/>
+</Root>
+</Loggers>
+</Configuration>

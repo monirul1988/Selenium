@@ -1,14 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 143.54 s <<< FAILURE! - in TestSuite
-Login_in_Account(Academy.loginvalidationTest)  Time elapsed: 51.978 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsDriver
-	at Academy.loginvalidationTest.Login_in_Account(loginvalidationTest.java:45)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WrapsDriver
-	at Academy.loginvalidationTest.Login_in_Account(loginvalidationTest.java:45)
-
-Text_Validation(Academy.validationTest)  Time elapsed: 18.347 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 122.79 s <<< FAILURE! - in TestSuite
+Text_Validation(Academy.validationTest)  Time elapsed: 31.582 s  <<< FAILURE!
 java.lang.AssertionError: expected [FEATURED COURSES1] but found [FEATURED COURSES]
-	at Academy.validationTest.Text_Validation(validationTest.java:41)
+	at Academy.validationTest.Text_Validation(validationTest.java:52)
 

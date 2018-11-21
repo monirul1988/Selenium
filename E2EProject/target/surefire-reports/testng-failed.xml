@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
   <test name="Test1(failed)">
     <classes>
-      <class name="Academy.loginvalidationTest">
-        <methods>
-          <include name="Login_in_Account" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- Academy.loginvalidationTest -->
-      <class name="Mobile.BrowseTest">
-        <methods>
-          <include name="Browse"/>
-        </methods>
-      </class> <!-- Mobile.BrowseTest -->
       <class name="Academy.validationTest">
         <methods>
           <include name="Text_Validation"/>

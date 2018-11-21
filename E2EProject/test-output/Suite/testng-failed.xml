@@ -8,7 +8,7 @@
     <classes>
       <class name="Academy.validationTest">
         <methods>
-          <include name="validationTest"/>
+          <include name="Text_Validation"/>
         </methods>
       </class> <!-- Academy.validationTest -->
     </classes>

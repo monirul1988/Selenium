@@ -1,66 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="132818" started-at="2018-11-18T15:46:46Z" finished-at="2018-11-18T15:48:58Z">
+  <suite name="Default suite" duration-ms="36621" started-at="2018-11-20T15:40:02Z" finished-at="2018-11-20T15:40:38Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="132818" started-at="2018-11-18T15:46:46Z" finished-at="2018-11-18T15:48:58Z">
-      <class name="Academy.loginvalidationTest">
-        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@dd8682]" name="pagenavigation1" duration-ms="39273" started-at="2018-11-18T15:47:00Z" data-provider="getdata" finished-at="2018-11-18T15:47:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[monirul@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ibm]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pagenavigation1 -->
-        <test-method status="PASS" signature="pagenavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.loginvalidationTest@dd8682]" name="pagenavigation1" duration-ms="47007" started-at="2018-11-18T15:47:39Z" data-provider="getdata" finished-at="2018-11-18T15:48:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ibm]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pagenavigation1 -->
-      </class> <!-- Academy.loginvalidationTest -->
-      <class name="Mobile.AppTest">
-        <test-method status="PASS" signature="Test()[pri:0, instance:Mobile.AppTest@19b62af]" name="Test" duration-ms="14179" started-at="2018-11-18T15:46:46Z" finished-at="2018-11-18T15:47:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- Mobile.AppTest -->
+    <test name="Default test" duration-ms="36621" started-at="2018-11-20T15:40:02Z" finished-at="2018-11-20T15:40:38Z">
       <class name="Academy.validationTest">
-        <test-method status="FAIL" signature="validationTest()[pri:1, instance:Academy.validationTest@16da883]" name="validationTest" duration-ms="32305" started-at="2018-11-18T15:48:26Z" finished-at="2018-11-18T15:48:58Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="Text_Validation()[pri:0, instance:Academy.validationTest@3dbc2c]" name="Text_Validation" duration-ms="36601" started-at="2018-11-20T15:40:02Z" finished-at="2018-11-20T15:40:38Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[expected [FEATURED COURSES1] but found [FEATURED COURSES]]]>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'MDMISLAM', ip: '192.168.43.122', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49859}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\IBM_AD~1\AppData\Local\Temp\scoped_dir10928_31720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b0c5662f33fa60997220c85498bea43e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES1] but found [FEATURED COURSES]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at Academy.validationTest.validationTest(validationTest.java:41)
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'MDMISLAM', ip: '192.168.43.122', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49859}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\IBM_AD~1\AppData\Local\Temp\scoped_dir10928_31720}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b0c5662f33fa60997220c85498bea43e
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:490)
+at Academy.validationTest.Text_Validation(validationTest.java:59)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -88,21 +67,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validationTest -->
+        </test-method> <!-- Text_Validation -->
       </class> <!-- Academy.validationTest -->
-      <class name="Mobile.BrowseTest">
-        <test-method status="PASS" signature="Browse()[pri:0, instance:Mobile.BrowseTest@cf48b7]" name="Browse" is-config="true" duration-ms="7033" started-at="2018-11-18T15:46:38Z" finished-at="2018-11-18T15:46:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browse -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:Mobile.BrowseTest@cf48b7]" name="Test2" duration-ms="2" started-at="2018-11-18T15:47:00Z" finished-at="2018-11-18T15:47:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-      </class> <!-- Mobile.BrowseTest -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
